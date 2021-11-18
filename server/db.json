@@ -1,0 +1,56 @@
+{
+  "favourites": [
+    {
+      "fdcId": "540031",
+      "foodName": "TEA",
+      "brandOwner": "Snapple Beverage Corp.",
+      "id": 9
+    },
+    {
+      "fdcId": "452652",
+      "foodName": "CHOCOLATE",
+      "brandOwner": "FINE & RAW",
+      "id": 10
+    },
+    {
+      "fdcId": "1104144",
+      "foodName": "Coffee, macchiato ",
+      "id": 12
+    },
+    {
+      "fdcId": "540031",
+      "foodName": "TEA",
+      "brandOwner": "Snapple Beverage Corp.",
+      "id": 13
+    },
+    {
+      "fdcId": "170276",
+      "foodName": "Syrup, maple, Canadian",
+      "id": 14
+    },
+    {
+      "fdcId": "590122",
+      "foodName": "PANEER",
+      "brandOwner": "Karoun Dairies Inc.",
+      "id": 16
+    },
+    {
+      "fdcId": "590122",
+      "foodName": "PANEER",
+      "brandOwner": "Karoun Dairies Inc.",
+      "id": 17
+    },
+    {
+      "fdcId": "504320",
+      "foodName": "MAGGI, SPICY SEASONING",
+      "brandOwner": "Nestle USA Inc.",
+      "id": 19
+    },
+    {
+      "fdcId": "566821",
+      "foodName": "CHEESE",
+      "brandOwner": "Clover Stornetta Farms, Inc.",
+      "id": 20
+    }
+  ]
+}

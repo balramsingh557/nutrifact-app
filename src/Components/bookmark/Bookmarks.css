@@ -1,0 +1,25 @@
+.bookmarks {
+  min-height: 50vh;
+}
+
+.bookmarks .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5px 10px 5px;
+}
+
+.bookmarks .flex-items {
+  flex: 1 1 0px;
+  background-color: rgba(255, 244, 230, 0.705);
+  margin: 10px;
+  min-width: 14rem;
+}
+
+.bookmarks .flex-items p {
+  margin-bottom: 50px;
+}
+
+.bookmarks .flex-items .bottom-btn {
+  position: absolute;
+  bottom: 5%;
+}

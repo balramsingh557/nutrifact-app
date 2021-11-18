@@ -1,0 +1,10 @@
+.preLoader {
+  min-height: 47vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preLoader .circle {
+  border-color: white;
+}

@@ -1,0 +1,9 @@
+.page-footer {
+  background-color: rgba(27, 27, 27, 0.26);
+}
+
+.social-media-links img {
+  width: 20px;
+  height: 20px;
+  margin: 5px 9px 5px 0;
+}

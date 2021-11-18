@@ -1,0 +1,18 @@
+.search {
+  padding: 0 10px;
+}
+
+.search .search-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search .search-result {
+  padding: 15px;
+  margin: 10px;
+  min-width: 16rem;
+  min-height: 8rem;
+  flex: 1 1 0px;
+  background-color: rgba(255, 244, 230, 0.705);
+  /* border-bottom: 1px solid rgb(179, 179, 179); */
+}
