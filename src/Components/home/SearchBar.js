@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-
+import './SearchBar.css';
 export default function Search(props) {
 
     const [query, setQuery] = useState('');
@@ -17,16 +17,17 @@ export default function Search(props) {
         }
     }
     return (
-        <div className=" search-bar">
+        <div className="search-bar">
         <div className="nav-wrapper z-depth-1">
         <form onSubmit = {submitHandler}>
             <div className="input-field">
             <input id="search" type="search" required
             placeholder="Search for any food"
             value = {query}
-            onChange = {(e) => {setQuery(e.target.value)}}/>
+            onChange = {(e) => {setQuery(e.target.value)}}
+            autoComplete="off"/>
             <label className="label-icon" htmlFor="search">
-                <i className="material-icons">search</i>
+                <i className="material-icons" onClick={submitHandler}>search</i>
             </label>
             <i className="material-icons" onClick={() => {setQuery('')}}>close</i>
             </div>
