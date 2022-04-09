@@ -1,4 +1,8 @@
 import React from 'react';
+import twitter from '../../images/twitter.png'
+import youtube from '../../images/youtube.png'
+import instagram from '../../images/instagram.png'
+import facebook from '../../images/facebook.png'
 import './Footer.css';
 
 export default function Footer() {
@@ -24,22 +28,22 @@ export default function Footer() {
 
           <li>
             <a className="grey-text text-lighten-3 valign-wrapper" href="#!">
-              <img src="/images/twitter.png" alt="icon"/> Twitter
+              <img src={twitter}alt="icon"/> Twitter
             </a>
           </li>
           <li>
             <a className="grey-text text-lighten-3 valign-wrapper" href="#!">
-              <img src="/images/facebook.png" alt="icon"/> Facebook
+              <img src={facebook} alt="icon"/> Facebook
             </a>
           </li>
           <li>
             <a className="grey-text text-lighten-3 valign-wrapper" href="#!">
-              <img src="/images/youtube.png" alt="icon"/> Youtube
+              <img src={youtube} alt="icon"/> Youtube
             </a>
           </li>
           <li>
             <a className="grey-text text-lighten-3 valign-wrapper" href="#!">
-              <img src="/images/instagram.png" alt="icon"/> Instagram
+              <img src={instagram} alt="icon"/> Instagram
             </a>
           </li>
           

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Login from '../login/Login';
 import M from 'materialize-css';
+import Logo from '../../images/logo.png'
 import './Header.css';
 
 export default function Header() {
@@ -118,7 +119,7 @@ export default function Header() {
 
             <div className="brand-logo">
             <Link to="/">
-            <img src="/images/logo.png" className="logo" alt="brand-logo"/>
+            <img src={Logo} className="logo" alt="brand-logo"/>
             <span>NutriFact</span>
             </Link>
             </div>
